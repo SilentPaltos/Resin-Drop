@@ -1,0 +1,39 @@
+{
+    "pack.resin_drop.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.resin_drop.name": "Resin Drop",
+    "pack.resin_drop.description": "Некоторые добавления к Зимнему дропу",
+    "pack.resin_drop.author": "Автор: %s",
+    "pack.resin_drop.version": "Версия: %s",
+    "pack.resin_drop.get_links": "Ссылки",
+    "pack.resin_drop.links": "\n[%s] [%s] [%s]\n",
+    "pack.resin_drop.link_github": "GitHub",
+    "pack.resin_drop.link_modrinth": "Modrinth",
+    "pack.resin_drop.link_planetminecraft": "PlanetMinecraft",
+
+    "item.resin_drop.resin_axe": "Смоляной топор",
+    "item.resin_drop.resin_hoe": "Смоляная мотыга",
+    "item.resin_drop.resin_pickaxe": "Смоляная кирка",
+    "item.resin_drop.resin_shovel": "Смоляная лопата",
+    "item.resin_drop.resin_sword": "Смоляной меч",
+    "item.resin_drop.resin_helmet": "Смоляной шлем",
+    "item.resin_drop.resin_chestplate": "Смоляной нагрудник",
+    "item.resin_drop.resin_leggings": "Смоляные поножи",
+    "item.resin_drop.resin_boots": "Смоляные ботинки",
+    "item.resin_drop.resin_horse_armor": "Смоляная конская броня",
+    "item.resin_drop.creaking_heart_chestplate": "Нагрудник со скрипцевиной",
+    "item.resin_drop.amber_gem": "Янтарный камень",
+    "item.resin_drop.toxic_resin": "Токсичная смола",
+
+    "painting.resin_drop.packed.title": "Закрытие",
+    "painting.resin_drop.packed.author": "Сара Бовинг, изменил SilentPaltos",
+    "painting.resin_drop.repacked.title": "Переоткрытие",
+    "painting.resin_drop.repacked.author": "Сара Бовинг, изменил SilentPaltos",
+
+    "enchantment.resin_drop._creaking_heart_chestplate": "Скрипящий",
+
+    "emoji.resin_drop.resin_clump": "1",
+    "emoji.resin_drop.resin_brick": "2",
+    "emoji.resin_drop.toxic_resin": "3",
+    "emoji.resin_drop.amber_gem": "4",
+    "emoji.resin_drop.creaking_heart_chestplate": "5"
+}

@@ -1,0 +1,14 @@
+{
+    "layers": {
+      "humanoid": [
+        {
+          "texture": "resin_drop:resin"
+        }
+      ],
+      "humanoid_leggings": [
+        {
+          "texture": "resin_drop:resin"
+        }
+      ]
+    }
+  }

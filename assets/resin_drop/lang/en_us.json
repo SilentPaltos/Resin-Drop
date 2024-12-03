@@ -1,0 +1,39 @@
+{
+    "pack.resin_drop.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.resin_drop.name": "Resin Drop",
+    "pack.resin_drop.description": "Some additions to the Winter Drop",
+    "pack.resin_drop.author": "Author: %s",
+    "pack.resin_drop.version": "Version: %s",
+    "pack.resin_drop.get_links": "Get Links",
+    "pack.resin_drop.links": "\n[%s] [%s] [%s]\n",
+    "pack.resin_drop.link_github": "GitHub",
+    "pack.resin_drop.link_modrinth": "Modrinth",
+    "pack.resin_drop.link_planetminecraft": "PlanetMinecraft",
+
+    "item.resin_drop.resin_axe": "Resin Axe",
+    "item.resin_drop.resin_hoe": "Resin Hoe",
+    "item.resin_drop.resin_pickaxe": "Resin Pickaxe",
+    "item.resin_drop.resin_shovel": "Resin Shovel",
+    "item.resin_drop.resin_sword": "Resin Sword",
+    "item.resin_drop.resin_helmet": "Resin Helmet",
+    "item.resin_drop.resin_chestplate": "Resin Chesplate",
+    "item.resin_drop.resin_leggings": "Resin Leggings",
+    "item.resin_drop.resin_boots": "Resin Boots",
+    "item.resin_drop.resin_horse_armor": "Resin Horse Armor",
+    "item.resin_drop.creaking_heart_chestplate": "Creaking Heart Chestplate",
+    "item.resin_drop.amber_gem": "Amber Gem",
+    "item.resin_drop.toxic_resin": "Toxic Resin",
+
+    "painting.resin_drop.packed.title": "Packed",
+    "painting.resin_drop.packed.author": "Sarah Boeving, edited by SilentPaltos",
+    "painting.resin_drop.repacked.title": "Repacked",
+    "painting.resin_drop.repacked.author": "Sarah Boeving, edited by SilentPaltos",
+
+    "enchantment.resin_drop._creaking_heart_chestplate": "Creaking",
+
+    "emoji.resin_drop.resin_clump": "1",
+    "emoji.resin_drop.resin_brick": "2",
+    "emoji.resin_drop.toxic_resin": "3",
+    "emoji.resin_drop.amber_gem": "4",
+    "emoji.resin_drop.creaking_heart_chestplate": "5"
+}

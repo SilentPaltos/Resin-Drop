@@ -1,0 +1,39 @@
+{
+    "pack.resin_drop.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.resin_drop.name": "Резиновый дроп",
+    "pack.resin_drop.description": "Некоторые добавления к Зимнему дропу",
+    "pack.resin_drop.author": "Автор: %s",
+    "pack.resin_drop.version": "Версия: %s",
+    "pack.resin_drop.get_links": "Ссылки",
+    "pack.resin_drop.links": "\n[%s] [%s] [%s]\n",
+    "pack.resin_drop.link_github": "ГитХаб",
+    "pack.resin_drop.link_modrinth": "Модринт",
+    "pack.resin_drop.link_planetminecraft": "Шахтёрская планета",
+
+    "item.resin_drop.resin_axe": "Резиновый топор",
+    "item.resin_drop.resin_hoe": "Резиновая мотыга",
+    "item.resin_drop.resin_pickaxe": "Резиновая кирка",
+    "item.resin_drop.resin_shovel": "Резиновая лопата",
+    "item.resin_drop.resin_sword": "Резиновый меч",
+    "item.resin_drop.resin_helmet": "Латексный шлем",
+    "item.resin_drop.resin_chestplate": "Латексный нагрудник",
+    "item.resin_drop.resin_leggings": "Латексные штаны",
+    "item.resin_drop.resin_boots": "Латексные сапоги",
+    "item.resin_drop.resin_horse_armor": "Латексная конская броня",
+    "item.resin_drop.creaking_heart_chestplate": "Скрипцевиновый нагрудник",
+    "item.resin_drop.amber_gem": "Янтарь",
+    "item.resin_drop.toxic_resin": "Токсичная резина",
+
+    "painting.resin_drop.packed.title": "Запаковано",
+    "painting.resin_drop.packed.author": "Сара Бовинг, изменил ТихийПалтос",
+    "painting.resin_drop.repacked.title": "Перепаковано",
+    "painting.resin_drop.repacked.author": "Сара Бовинг, изменил ТихийПалтос",
+
+    "enchantment.resin_drop._creaking_heart_chestplate": "Скрипение",
+
+    "emoji.resin_drop.resin_clump": "1",
+    "emoji.resin_drop.resin_brick": "2",
+    "emoji.resin_drop.toxic_resin": "3",
+    "emoji.resin_drop.amber_gem": "4",
+    "emoji.resin_drop.creaking_heart_chestplate": "5"
+}

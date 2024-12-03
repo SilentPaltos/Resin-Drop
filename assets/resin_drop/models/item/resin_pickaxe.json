@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "resin_drop:item/resin_pickaxe"
+	}
+}
