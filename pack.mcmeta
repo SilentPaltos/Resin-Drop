@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 46,
+    "supported_formats": [ 46, 61 ],
+    "description": [
+      {
+        "translate": "pack.resin_drop.description",
+        "fallback": "Some additions to the Winter Drop"
+      }
+    ]
+  }
+}
