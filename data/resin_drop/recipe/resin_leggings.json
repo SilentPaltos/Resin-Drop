@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "rrr",
+      "r r",
+      "r r"
+    ],
+    "key": {
+      "r": "minecraft:resin_brick"
+    },
+    "result": {
+      "id": "minecraft:chainmail_leggings",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"item.resin_drop.resin_leggings\"}",
+        "minecraft:item_model": "resin_drop:resin_leggings",
+        "minecraft:rarity": "common",
+        "minecraft:max_stack_size": 1,
+        "minecraft:equippable": {
+          "asset_id": "resin_drop:resin",
+          "slot": "legs",
+          "allowed_entities": "player",
+          "equip_sound": "block.resin.place",
+          "dispensable": true,
+          "swappable": true
+        },
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+              {
+                  "id": "resin_drop:armor.legs",
+                  "type": "minecraft:armor",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "legs"
+              }
+          ]
+        },
+        "!max_damage": {},
+        "!repairable": {},
+        "custom_data": { "resin_drop": {"id": "resin_leggings"} } 
+      }
+    }
+  }
+  

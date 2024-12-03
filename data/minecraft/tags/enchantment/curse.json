@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "resin_drop:_creaking_heart_chestplate",
+        "resin_drop:_creaking_heart_chestplate_active"
+    ]
+}

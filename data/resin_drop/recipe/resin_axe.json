@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "rr ",
+      "rs ",
+      " s "
+    ],
+    "key": {
+      "r": "minecraft:resin_brick",
+      "s": "minecraft:stick"
+    },
+    "result": {
+      "id": "minecraft:stone_axe",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"item.resin_drop.resin_axe\"}",
+        "minecraft:item_model": "resin_drop:resin_axe",
+        "minecraft:rarity": "common",
+        "minecraft:max_stack_size": 1,
+        "tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "correct_for_drops": false,
+              "speed": 4
+            }
+          ],
+          "default_mining_speed": 1,
+          "damage_per_block": 0
+        },
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+              {
+                  "id": "resin_drop:attack_damage.main_hand",
+                  "type": "minecraft:attack_damage",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+              },
+              {
+                  "id": "resin_drop:attack_speed.main_hand",
+                  "type": "minecraft:attack_speed",
+                  "amount": -1.6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+              }
+          ]
+        },
+        "!max_damage": {},
+        "!repairable": {},
+        "custom_data": { "resin_drop": {"id": "resin_axe"} } 
+      }
+    }
+  }
+  

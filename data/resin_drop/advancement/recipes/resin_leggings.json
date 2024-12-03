@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_resin_brick": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:resin_brick"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "resin_drop:resin_leggings"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_resin_brick"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "resin_drop:resin_leggings"
+      ]
+    }
+  }
+  

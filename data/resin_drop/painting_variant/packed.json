@@ -1,0 +1,18 @@
+{
+    "asset_id": "resin_drop:packed",
+    "width": 4,
+    "height": 4,
+    "title": [
+      {
+        "translate": "painting.resin_drop.packed.title",
+        "color": "yellow"
+      }
+    ],
+    "author": [
+      {
+        "translate": "painting.resin_drop.packed.author",
+        "color": "gray"
+      }
+    ]
+  }
+  

@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.resin_drop.creaking_heart_chestplate\"}",
+            "minecraft:item_model": "resin_drop:creaking_heart_chestplate",
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 1,
+            "minecraft:equippable": {
+              "asset_id": "resin_drop:creaking_heart",
+              "slot": "chest",
+              "allowed_entities": "player",
+              "equip_sound": "item.armor.equip_generic",
+              "dispensable": true,
+              "swappable": true
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                  {
+                      "id": "resin_drop:armor.chest",
+                      "type": "minecraft:armor",
+                      "amount": 4.5,
+                      "operation": "add_value",
+                      "slot": "chest"
+                  },
+                  {
+                    "id": "resin_drop.knockback_resistance.chest",
+                    "type": "minecraft:knockback_resistance",
+                    "amount": 0.3,
+                    "slot": "chest",
+                    "operation": "add_value"
+                  }
+              ]
+            },
+            "enchantments": {
+              "levels": { "resin_drop:_creaking_heart_chestplate": 1 },
+              "show_in_tooltip": false
+            },
+            "enchantment_glint_override": false,
+            "max_damage": 200,
+            "damage": 0,
+            "!repairable": {},
+            "!enchantable": {},
+            "custom_data": { "resin_drop": {"id": "creaking_heart_chestplate"} } 
+          }
+        }
+      ]
+    }
+  ]
+}

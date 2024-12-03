@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.resin_drop.resin_chestplate\"}",
+            "minecraft:item_model": "resin_drop:resin_chestplate",
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 1,
+            "minecraft:equippable": {
+              "asset_id": "resin_drop:resin",
+              "slot": "chest",
+              "allowed_entities": "player",
+              "equip_sound": "block.resin.place",
+              "dispensable": true,
+              "swappable": true
+            },
+            "minecraft:attribute_modifiers": {
+              "modifiers": [
+                  {
+                      "id": "resin_drop:armor.chest",
+                      "type": "minecraft:armor",
+                      "amount": 2.5,
+                      "operation": "add_value",
+                      "slot": "chest"
+                  }
+              ]
+            },
+            "!max_damage": {},
+            "!repairable": {},
+            "custom_data": { "resin_drop": {"id": "resin_chestplate"} } 
+          }
+        }
+      ]
+    }
+  ]
+}

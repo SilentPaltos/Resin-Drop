@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "resin_drop:packed",
+        "resin_drop:repacked"
+    ]
+}

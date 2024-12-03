@@ -1,0 +1,62 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_pickaxe"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": "{\"translate\":\"item.resin_drop.resin_pickaxe\"}",
+              "minecraft:item_model": "resin_drop:resin_pickaxe",
+              "minecraft:rarity": "common",
+              "minecraft:max_stack_size": 1,
+              "tool": {
+                "rules": [
+                  {
+                    "blocks": "#minecraft:incorrect_for_wooden_tool",
+                    "correct_for_drops": false,
+                    "speed": 1
+                  },
+                  {
+                    "blocks": "#minecraft:mineable/pickaxe",
+                    "correct_for_drops": true,
+                    "speed": 4
+                  } 
+                ],
+                "default_mining_speed": 1,
+                "damage_per_block": 0
+              },
+              "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "resin_drop:attack_damage.main_hand",
+                        "type": "minecraft:attack_damage",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "resin_drop:attack_speed.main_hand",
+                        "type": "minecraft:attack_speed",
+                        "amount": -1.4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+              },
+              "!max_damage": {},
+              "!repairable": {},
+              "custom_data": { "resin_drop": {"id": "resin_pickaxe"} } 
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

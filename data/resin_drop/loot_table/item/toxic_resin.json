@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_name": "{\"translate\":\"item.resin_drop.toxic_resin\"}",
+            "minecraft:item_model": "resin_drop:toxic_resin",
+            "minecraft:rarity": "epic",
+            "minecraft:max_stack_size": 64,
+            "custom_data": { "resin_drop": {"id": "toxic_resin"} } 
+          }
+        }
+      ]
+    }
+  ]
+}
