@@ -5,7 +5,7 @@ Some additions to the ~~Winter Drop~~ Garden Awakens. Mojang added some new stuf
 <summary>Items</summary>
 
 ## Resin Items
-I don't why these items exist... But why not. All of these items are unbreakable.
+I don't know why these items exist... But why not. All of these items are unbreakable.
 - All resin items can be crafted from Resin Bricks.
 - Resin tools have a bit less mining efficiency than iron and can only mine blocks that are wooden tools can
 
